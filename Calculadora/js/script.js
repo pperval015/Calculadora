@@ -25,7 +25,7 @@ function agregarNumero(symbol) {
 }
 
 function operadorPulsado(symbol) {
-    operando1 = parseInt(valorEnPantalla 10);
+    operando1 = parseInt(valorEnPantalla, 10);
     operador = symbol;
     valorEnPantalla = "";
 }
